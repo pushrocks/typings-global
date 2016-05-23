@@ -1,9 +1,9 @@
 {
   "name": "typings-global",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "most used global typings as global package in most recent version.",
   "main": "index.js",
-  "typings":"typings/index.d.ts",
+  "typings": "typings/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

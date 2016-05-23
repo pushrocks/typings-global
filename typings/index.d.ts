@@ -1,3 +1,4 @@
-/// <reference path="globals/mocha/index.d.ts" />
-/// <reference path="globals/node/index.d.ts" />
-/// <reference path="globals/vinyl/index.d.ts" />
+import "globals/colors/index.d.ts"
+import "globals/mocha/index.d.ts"
+import "globals/node/index.d.ts"
+import "globals/vinyl/index.d.ts"

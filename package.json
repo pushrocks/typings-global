@@ -1,0 +1,24 @@
+{
+  "name": "typings-global",
+  "version": "1.0.0",
+  "description": "most used global typings as global package in most recent version.",
+  "main": "index.js",
+  "typings":"typings/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pushrocks/typings-global.git"
+  },
+  "keywords": [
+    "global",
+    "typings"
+  ],
+  "author": "Lossless GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pushrocks/typings-global/issues"
+  },
+  "homepage": "https://github.com/pushrocks/typings-global#readme"
+}

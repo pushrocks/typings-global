@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/pushrocks/typings-global#readme",
   "dependencies": {
-    "@types/colors": "^0.6.22-alpha",
-    "@types/node": "^4.0.22-alpha",
-    "@types/vinyl": "^1.1.21-alpha"
+    "@types/colors": "*",
+    "@types/node": "*",
+    "@types/vinyl": "*"
   }
 }

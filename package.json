@@ -1,7 +1,7 @@
 {
   "name": "typings-global",
   "version": "1.0.12",
-  "description": "most used global typings as global package in most recent version.",
+  "description": "@types/node in the right version",
   "main": "index.js",
   "typings": "custom.d.ts",
   "scripts": {

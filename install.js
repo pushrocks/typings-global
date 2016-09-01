@@ -8,4 +8,5 @@ console.log("Your node version is " + sanatizedNodeVersion);
 console.log("Trying to install node typings in matching version...");
 
 nodeMajorVersion = semver.major(sanatizedNodeVersion);
-shelljs.exec('npm install @types/node@">=' + nodeMajorVersion + '.0.0"');
+nodeNextVersion = nodeMajorVersion + 1;
+shelljs.exec('npm install @types/node@">=' + nodeMajorVersion + '.0.0 <' +  nodeNextVersion + '.0.0"');

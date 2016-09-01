@@ -3,9 +3,10 @@
   "version": "1.0.6",
   "description": "most used global typings as global package in most recent version.",
   "main": "index.js",
-  "typings": "typings/custom.d.ts",
+  "typings": "custom.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node ./install.js"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,7 @@
   "homepage": "https://github.com/pushrocks/typings-global#readme",
   "dependencies": {
     "@types/colors": "*",
-    "@types/node": "*",
-    "@types/vinyl": "*"
+    "@types/vinyl": "*",
+    "shelljs": "^0.7.4"
   }
 }

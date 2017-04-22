@@ -16,6 +16,5 @@ else {
     console.log("Trying to install node typings in matching version...");
     var nodeMajorVersion = semver.major(sanatizedNodeVersion);
     var nodeNextVersion = nodeMajorVersion + 1;
-    shelljs.exec("npm install @types/node@\">=" + nodeMajorVersion + ".0.0 <" + nodeNextVersion + ".0.0\"");
+    shelljs.exec("cd .. && npm install @types/node@\">=" + nodeMajorVersion + ".0.0 <" + nodeNextVersion + ".0.0\"");
 }
-;

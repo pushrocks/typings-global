@@ -5,7 +5,7 @@
   "main": "index.js",
   "typings": "custom.d.ts",
   "scripts": {
-    "test": "tsc",
+    "test": "npm install @types/node && tsc",
     "postinstall": "node ./dist/install.js"
   },
   "repository": {

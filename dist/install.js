@@ -8,7 +8,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-//declare let require;
 const smartshell = require("smartshell");
 var semver = require("semver");
 let safeInstall = () => __awaiter(this, void 0, void 0, function* () {

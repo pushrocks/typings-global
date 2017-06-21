@@ -1,6 +1,6 @@
 {
   "name": "typings-global",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "@types/node in the right version",
   "main": "index.js",
   "typings": "custom.d.ts",
@@ -23,7 +23,6 @@
   },
   "homepage": "https://gitlab.com/pushrocks/typings-global#readme",
   "dependencies": {
-    "@types/node": "^7.0.29",
     "semver": "^5.3.0",
     "smartshell": "^1.0.6"
   },

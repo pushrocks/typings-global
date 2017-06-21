@@ -1,4 +1,3 @@
-//declare let require;
 import * as smartshell from 'smartshell'
 var semver = require("semver");
 

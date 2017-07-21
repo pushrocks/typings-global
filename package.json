@@ -1,6 +1,6 @@
 {
   "name": "typings-global",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "@types/node in the right version",
   "main": "index.js",
   "typings": "custom.d.ts",

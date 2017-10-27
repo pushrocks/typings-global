@@ -1,12 +1,12 @@
 import * as smartshell from 'smartshell'
-var semver = require("semver");
+const semver = require("semver");
 
-let safeInstall = async () => {
-    var nodeVersion = (await smartshell.execSilent("node -v")).stdout;
+const safeInstall = async () => {
+    const nodeVersion = (await smartshell.execSilent("node -v")).stdout;
 
     //check for existing node typings
-    let treeLocal = (await smartshell.execSilent("(npm list)")).stdout
-    let treeOuter = (await smartshell.execSilent("(cd ../ && npm list)")).stdout;
+    const treeLocal = (await smartshell.execSilent("(npm list)")).stdout
+    const treeOuter = (await smartshell.execSilent("(cd ../ && npm list)")).stdout;
 
     let typesNodeRegex = /\@types\/node/
 

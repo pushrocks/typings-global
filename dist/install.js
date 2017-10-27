@@ -9,12 +9,12 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const smartshell = require("smartshell");
-var semver = require("semver");
-let safeInstall = () => __awaiter(this, void 0, void 0, function* () {
-    var nodeVersion = (yield smartshell.execSilent("node -v")).stdout;
+const semver = require("semver");
+const safeInstall = () => __awaiter(this, void 0, void 0, function* () {
+    const nodeVersion = (yield smartshell.execSilent("node -v")).stdout;
     //check for existing node typings
-    let treeLocal = (yield smartshell.execSilent("(npm list)")).stdout;
-    let treeOuter = (yield smartshell.execSilent("(cd ../ && npm list)")).stdout;
+    const treeLocal = (yield smartshell.execSilent("(npm list)")).stdout;
+    const treeOuter = (yield smartshell.execSilent("(cd ../ && npm list)")).stdout;
     let typesNodeRegex = /\@types\/node/;
     if (typesNodeRegex.test(treeLocal) || typesNodeRegex.test(treeOuter)) {
         console.log("@types/node already installed");

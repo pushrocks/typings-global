@@ -26,9 +26,9 @@ let safeInstall = () => __awaiter(this, void 0, void 0, function* () {
         console.log("Trying to install node typings in matching version...");
         var nodeMajorVersion = semver.major(sanatizedNodeVersion);
         var nodeNextVersion = nodeMajorVersion + 1;
-        let exitCode = (yield smartshell.exec(`cd .. && npm install @types/node@">=${nodeMajorVersion}.0.0 <${nodeNextVersion}.0.0"`)).exitCode;
+        let exitCode = (yield smartshell.exec(`cd .. && npm install --no-save @types/node@">=${nodeMajorVersion}.0.0 <${nodeNextVersion}.0.0"`)).exitCode;
         if (exitCode !== 0) {
-            yield smartshell.exec('npm install @types/node');
+            yield smartshell.exec('npm install --no-save @types/node');
         }
     }
 });

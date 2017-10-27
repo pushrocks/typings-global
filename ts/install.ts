@@ -20,9 +20,9 @@ let safeInstall = async () => {
 
         var nodeMajorVersion = semver.major(sanatizedNodeVersion);
         var nodeNextVersion = nodeMajorVersion + 1;
-        let exitCode = (await smartshell.exec(`cd .. && npm install @types/node@">=${nodeMajorVersion}.0.0 <${nodeNextVersion}.0.0"`)).exitCode
+        let exitCode = (await smartshell.exec(`cd .. && npm install --no-save @types/node@">=${nodeMajorVersion}.0.0 <${nodeNextVersion}.0.0"`)).exitCode
         if (exitCode !== 0) {
-            await smartshell.exec('npm install @types/node')
+            await smartshell.exec('npm install --no-save @types/node')
         }
     }
 }

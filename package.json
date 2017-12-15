@@ -24,6 +24,7 @@
   "homepage": "https://gitlab.com/pushrocks/typings-global#readme",
   "dependencies": {},
   "devDependencies": {
+    "@types/node": "^8.5.1",
     "typescript": "next"
   }
 }

@@ -3,7 +3,6 @@
   "version": "1.0.27",
   "description": "@types/node in the right version",
   "main": "index.js",
-  "typings": "custom.d.ts",
   "scripts": {
     "test": "tsc && npm run postinstall",
     "postinstall": "node ./dist/install.js"

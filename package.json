@@ -1,6 +1,6 @@
 {
   "name": "typings-global",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "description": "@types/node in the right version",
   "main": "index.js",
   "typings": "custom.d.ts",
@@ -22,8 +22,7 @@
     "url": "https://gitlab.com/pushrocks/typings-global/issues"
   },
   "homepage": "https://gitlab.com/pushrocks/typings-global#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "typescript": "next"
   }
